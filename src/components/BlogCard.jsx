@@ -24,7 +24,7 @@ const BlogCard = ({title , description , image , userName}) => {
         <CardHeader
           avatar={
             <Avatar sx={{ bgcolor: "red" }} aria-label="recipe">
-             {userName}
+              {userName}
             </Avatar>
           }
           title={title}
@@ -38,7 +38,8 @@ const BlogCard = ({title , description , image , userName}) => {
         />
         <CardContent>
           <Typography variant="body2" color="text.secondary">
-           {description}
+            <b> {userName} </b> {":-"}
+            {description}
           </Typography>
         </CardContent>
       </Card>

@@ -4,7 +4,7 @@ import { useState } from "react";
 import BlogCard from "./BlogCard";
 
 const UserBlog = () => {
-  const [blogs, setBlogs] = useState();
+  const [user, setUser] = useState();
   const id = localStorage.getItem("userId");
   const sendRequest = async () => {
     const res = await axios
@@ -14,18 +14,19 @@ const UserBlog = () => {
     return data;
   };
   useEffect(() => {
-    sendRequest().then((data) => setBlogs(data.blogs.blogs));
+    sendRequest().then((data) => setUser(data.user));
   }, []);
-  console.log(blogs);
+  console.log(user);
   return (
     <div>
-      {blogs &&
-        blogs.map((blog, index) => (
+      { user && user.blogs &&
+        user.blogs.map((blog, index) => (
           <BlogCard
+            key={index}
             title={blog.title}
             image={blog.image}
             description={blog.description}
-            userName={blog.user.name}
+            userName={user.name}
           />
         ))}
     </div>
