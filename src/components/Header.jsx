@@ -38,6 +38,7 @@ const Header = () => {
             >
               <Tab LinkComponent={Link} to="/blogs" label="All Blogs" />
               <Tab LinkComponent={Link} to="/myblogs" label="My Blogs" />
+              <Tab LinkComponent={Link} to="/blogs/add" label="Add Blog" />
             </Tabs>
           </Box>
         )}
@@ -67,7 +68,7 @@ const Header = () => {
           )}
           {isLoggedIn && (
             <Button
-              onClick={()=>dispatch(authActions.logout())}
+              onClick={() => dispatch(authActions.logout())}
               LinkComponent={Link}
               to="/auth"
               variant="contained"
