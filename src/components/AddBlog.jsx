@@ -1,11 +1,13 @@
 import { Typography, Box, InputLabel, TextField, Button } from "@mui/material";
 import axios from "axios";
+import { useNavigate } from "react-router-dom";
 
 import React from "react";
 import { useState } from "react";
 const lableStyle = { mb: 1, mt: 2, fontSize: "24px", fontWeight: "bold" };
 
 const AddBlog = () => {
+  const navigate = useNavigate()
   const [inputs, setInputs] = useState({
     title: "",
     description: "",
@@ -35,7 +37,7 @@ const AddBlog = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(inputs);
-    sendRequest().then(data=>console.log(data))
+    sendRequest().then(data=>console.log(data)).then(()=>navigate("/blogs"))
   };
   return (
     <div>

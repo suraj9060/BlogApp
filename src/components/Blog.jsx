@@ -21,6 +21,8 @@ const Blog = () => {
       {blogs &&
         blogs.map((blog, index) => (
           <BlogCard
+            id={blog._id}
+            isUser = {localStorage.getItem("userId")===blog.user._id}
             title={blog.title}
             image={blog.image}
             description={blog.description}

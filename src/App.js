@@ -19,12 +19,17 @@ function App() {
       </header>
       <main>
         <Routes>
-          <Route path="/auth" element={<Auth />} />
-          <Route path="/blogs" element={<Blog />} />
-          <Route path="/myblogs" element={<UserBlog/>} />
-          <Route path="/myblogs/:id" element={<BlogDetails />} />
-          <Route path="/blogs/add" element={<AddBlog />} />
-         
+          {!isLoggedIn ? (
+            <Route path="/auth" element={<Auth />} />
+          ) : (
+            <>
+              {" "}
+              <Route path="/blogs" element={<Blog />} />
+              <Route path="/myblogs" element={<UserBlog />} />
+              <Route path="/myblogs/:id" element={<BlogDetails />} />
+              <Route path="/blogs/add" element={<AddBlog />} />
+            </>
+          )}
         </Routes>
       </main>
     </React.Fragment>
