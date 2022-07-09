@@ -2,7 +2,8 @@
 
 
 ### This is blog Application Using MERN Stack .
-![All Blog](https://user-images.githubusercontent.com/87435542/178119778-d2cebacb-c101-4797-b7fe-11a74a3764fc.png)
+
+![Screenshot (33)](https://user-images.githubusercontent.com/87435542/178120955-dd482d71-c21e-4afb-8fc6-d8b527d4bace.png)
 
 
 # Features
@@ -26,11 +27,22 @@
 # Video Demo of Website:-
 https://user-images.githubusercontent.com/87435542/178120769-54e1c5b8-3193-40c6-987f-c092b71e6148.mp4
 
-
-
-
-
-
 # Some Snapshots of Website:-
+
+![Screenshot (33)](https://user-images.githubusercontent.com/87435542/178120955-dd482d71-c21e-4afb-8fc6-d8b527d4bace.png)
+
+![Screenshot (36)](https://user-images.githubusercontent.com/87435542/178120958-fa79d763-3fa7-482e-9003-559f15383552.png)
+
+![Screenshot (37)](https://user-images.githubusercontent.com/87435542/178120966-c5bb72fe-6b2c-4ec5-9927-0ddca8c8ac33.png)
+
+![Screenshot (34)](https://user-images.githubusercontent.com/87435542/178120972-c501201f-9b12-4768-a559-c7835e8a4281.png)
+
+
+
+
+
+
+
+
 
 
