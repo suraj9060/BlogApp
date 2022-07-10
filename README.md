@@ -10,9 +10,10 @@
 1. Signin and Signup.
 2. Add User , Edit User , Delete User 
 3. Add Blog , Edit Blog , Delete Blog.
-4. authentication.
-5. Seperate address page and ratings and image of hotal/restorent.
-6. It has also service page  where you can filter according your choice.
+4. Authentication.
+5. Password Hashing.
+6. Relations between Multipal collection 
+
 
 # Technologies used:-
 1. react 
