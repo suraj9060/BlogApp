@@ -12,7 +12,7 @@
 3. Add Blog , Edit Blog , Delete Blog.
 4. Authentication.
 5. Password Hashing.
-6. Relations between Multipal collection 
+6. Relations between Multipal collections 
 
 
 # Technologies used:-
@@ -28,7 +28,7 @@
 # Video Demo of Website:-
 https://user-images.githubusercontent.com/87435542/178120769-54e1c5b8-3193-40c6-987f-c092b71e6148.mp4
 
-# Some Snapshots of Website:-
+# Some Snapshots of Website 📸
 
 ![Screenshot (33)](https://user-images.githubusercontent.com/87435542/178120955-dd482d71-c21e-4afb-8fc6-d8b527d4bace.png)
 
